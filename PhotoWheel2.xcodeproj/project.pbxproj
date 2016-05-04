@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F1D91AB1CB7587F004E6B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D91AA1CB7587F004E6B04 /* main.m */; };
+		2F1D91AE1CB7587F004E6B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D91AD1CB7587F004E6B04 /* AppDelegate.m */; };
+		2F1D91B41CB7587F004E6B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91B21CB7587F004E6B04 /* Main.storyboard */; };
+		2F1D91B71CB7587F004E6B04 /* PhotoWheel2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D91B51CB7587F004E6B04 /* PhotoWheel2.xcdatamodeld */; };
+		2F1D91B91CB75880004E6B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91B81CB75880004E6B04 /* Assets.xcassets */; };
+		2F1D91BC1CB75880004E6B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91BA1CB75880004E6B04 /* LaunchScreen.storyboard */; };
+		2F1D91DC1CB75A6D004E6B04 /* addphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91C31CB75A6D004E6B04 /* addphoto.png */; };
+		2F1D91DD1CB75A6D004E6B04 /* background-landscape-left-grooved.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91C41CB75A6D004E6B04 /* background-landscape-left-grooved.png */; };
+		2F1D91DF1CB75A6D004E6B04 /* background-portrait-grooved.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91C61CB75A6D004E6B04 /* background-portrait-grooved.png */; };
+		2F1D91E01CB75A6D004E6B04 /* buttonNext.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91C71CB75A6D004E6B04 /* buttonNext.png */; };
+		2F1D91E11CB75A6D004E6B04 /* buttonPrevious.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91C81CB75A6D004E6B04 /* buttonPrevious.png */; };
+		2F1D91E21CB75A6D004E6B04 /* defaultPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91C91CB75A6D004E6B04 /* defaultPhoto.png */; };
+		2F1D91E31CB75A6D004E6B04 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91CA1CB75A6D004E6B04 /* Icon.png */; };
+		2F1D91E41CB75A6D004E6B04 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91CB1CB75A6D004E6B04 /* Icon@2x.png */; };
+		2F1D91E51CB75A6D004E6B04 /* Icon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91CC1CB75A6D004E6B04 /* Icon72x72.png */; };
+		2F1D91E61CB75A6D004E6B04 /* IconSmall-50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91CD1CB75A6D004E6B04 /* IconSmall-50x50.png */; };
+		2F1D91E71CB75A6D004E6B04 /* IconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91CE1CB75A6D004E6B04 /* IconSmall.png */; };
+		2F1D91E81CB75A6D004E6B04 /* IconSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91CF1CB75A6D004E6B04 /* IconSmall@2x.png */; };
+		2F1D91E91CB75A6D004E6B04 /* PWDefault-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91D01CB75A6D004E6B04 /* PWDefault-Landscape.png */; };
+		2F1D91EA1CB75A6D004E6B04 /* PWDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91D11CB75A6D004E6B04 /* PWDefault.png */; };
+		2F1D91EB1CB75A6D004E6B04 /* stack-add-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91D21CB75A6D004E6B04 /* stack-add-down.png */; };
+		2F1D91EC1CB75A6D004E6B04 /* stack-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91D31CB75A6D004E6B04 /* stack-add.png */; };
+		2F1D91ED1CB75A6D004E6B04 /* stack-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91D41CB75A6D004E6B04 /* stack-bg.png */; };
+		2F1D91EE1CB75A6D004E6B04 /* PhotoWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91D51CB75A6D004E6B04 /* PhotoWheel.png */; };
+		2F1D91EF1CB75A6D004E6B04 /* PhotoWheel-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91D61CB75A6D004E6B04 /* PhotoWheel-Landscape.png */; };
+		2F1D91F01CB75A6D004E6B04 /* stack-overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91D71CB75A6D004E6B04 /* stack-overlay.png */; };
+		2F1D91F11CB75A6D004E6B04 /* stack-viewer-bg-landscape-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91D81CB75A6D004E6B04 /* stack-viewer-bg-landscape-left.png */; };
+		2F1D91F21CB75A6D004E6B04 /* stack-viewer-bg-landscape-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91D91CB75A6D004E6B04 /* stack-viewer-bg-landscape-right.png */; };
+		2F1D91F31CB75A6D004E6B04 /* stack-viewer-bg-portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91DA1CB75A6D004E6B04 /* stack-viewer-bg-portrait.png */; };
+		2F1D91F41CB75A6D004E6B04 /* stack-viewer-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D91DB1CB75A6D004E6B04 /* stack-viewer-shadow.png */; };
+		2F1D91F71CB767D0004E6B04 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D91F61CB767D0004E6B04 /* AboutViewController.m */; };
+		2F1D91FA1CB76C49004E6B04 /* CustomPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D91F91CB76C49004E6B04 /* CustomPushSegue.m */; };
+		2F1D91FD1CB76CCD004E6B04 /* UIView+PWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D91FC1CB76CCD004E6B04 /* UIView+PWCategory.m */; };
+		2F1D91FF1CB76E58004E6B04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1D91FE1CB76E58004E6B04 /* CoreGraphics.framework */; };
+		2F1D92021CB77332004E6B04 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92011CB77332004E6B04 /* CustomNavigationController.m */; };
+		2F1D92051CB96A6C004E6B04 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92041CB96A6C004E6B04 /* MainViewController.m */; };
+		2F1D92081CB96A91004E6B04 /* PhotoAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92071CB96A91004E6B04 /* PhotoAlbumViewController.m */; };
+		2F1D920B1CB96A9E004E6B04 /* PhotoAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D920A1CB96A9E004E6B04 /* PhotoAlbumsViewController.m */; };
+		2F1D921A1CB9A462004E6B04 /* WheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D920D1CB9A462004E6B04 /* WheelView.m */; };
+		2F1D921B1CB9A462004E6B04 /* PhotoWheelViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D920F1CB9A462004E6B04 /* PhotoWheelViewCell.m */; };
+		2F1D921C1CB9A462004E6B04 /* SpinGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92111CB9A462004E6B04 /* SpinGestureRecognizer.m */; };
+		2F1D921D1CB9A462004E6B04 /* _Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92131CB9A462004E6B04 /* _Photo.m */; };
+		2F1D921E1CB9A462004E6B04 /* _PhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92151CB9A462004E6B04 /* _PhotoAlbum.m */; };
+		2F1D921F1CB9A462004E6B04 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92171CB9A462004E6B04 /* Photo.m */; };
+		2F1D92201CB9A462004E6B04 /* PhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92191CB9A462004E6B04 /* PhotoAlbum.m */; };
+		2F1D92251CB9FBDA004E6B04 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1D92241CB9FBD9004E6B04 /* CoreData.framework */; };
+		2F1D922A1CBA18E6004E6B04 /* ClearToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92291CBA18E6004E6B04 /* ClearToolbar.m */; };
+		2F1D922C1CBABE90004E6B04 /* PhotoWheelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D922B1CBABE8F004E6B04 /* PhotoWheelViewCell.xib */; };
+		2F1D922F1CBCB8C5004E6B04 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D922E1CBCB8C5004E6B04 /* GridView.m */; };
+		2F1D92321CBE04AA004E6B04 /* ImageGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92311CBE04AA004E6B04 /* ImageGridViewCell.m */; };
+		2F1D92351CC09129004E6B04 /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D92341CC09129004E6B04 /* PhotoBrowserViewController.m */; };
+		2F3741C41CC5F00A0073C5DA /* PhotoBrowserPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3741C31CC5F00A0073C5DA /* PhotoBrowserPhotoView.m */; };
+		2F3741C61CC749B50073C5DA /* background-landscape-right-grooved.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3741C51CC749B50073C5DA /* background-landscape-right-grooved.png */; };
+		2F3741C81CC9C1410073C5DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3741C71CC9C1400073C5DA /* Default.png */; };
+		2F3741CA1CC9C14C0073C5DA /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3741C91CC9C14C0073C5DA /* Default-Landscape.png */; };
+		2F3741CC1CC9C9D20073C5DA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3741CB1CC9C9D20073C5DA /* MessageUI.framework */; };
+		2F3741CF1CC9C9FE0073C5DA /* SendEmailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3741CE1CC9C9FE0073C5DA /* SendEmailController.m */; };
+		2F3741D21CCB26720073C5DA /* FlickrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3741D11CCB26720073C5DA /* FlickrViewController.m */; };
+		2F3741D81CCB3B0F0073C5DA /* SimpleFlickrAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3741D71CCB3B0F0073C5DA /* SimpleFlickrAPI.m */; };
+		2F3741DB1CCB468A0073C5DA /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3741DA1CCB468A0073C5DA /* ImageDownloader.m */; };
+		2F3741DE1CCC62390073C5DA /* MainSlideShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3741DD1CCC62390073C5DA /* MainSlideShowViewController.m */; };
+		2F3741E11CCC6EE50073C5DA /* SlideShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3741E01CCC6EE50073C5DA /* SlideShowViewController.m */; };
+		2F3741E31CCF31810073C5DA /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3741E21CCF31810073C5DA /* ImageIO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F1D91A61CB7587F004E6B04 /* PhotoWheel2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoWheel2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1D91AA1CB7587F004E6B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F1D91AC1CB7587F004E6B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F1D91AD1CB7587F004E6B04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F1D91B31CB7587F004E6B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F1D91B61CB7587F004E6B04 /* PhotoWheel2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoWheel2.xcdatamodel; sourceTree = "<group>"; };
+		2F1D91B81CB75880004E6B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F1D91BB1CB75880004E6B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F1D91BD1CB75880004E6B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1D91C31CB75A6D004E6B04 /* addphoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addphoto.png; sourceTree = "<group>"; };
+		2F1D91C41CB75A6D004E6B04 /* background-landscape-left-grooved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-landscape-left-grooved.png"; sourceTree = "<group>"; };
+		2F1D91C61CB75A6D004E6B04 /* background-portrait-grooved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-portrait-grooved.png"; sourceTree = "<group>"; };
+		2F1D91C71CB75A6D004E6B04 /* buttonNext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonNext.png; sourceTree = "<group>"; };
+		2F1D91C81CB75A6D004E6B04 /* buttonPrevious.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPrevious.png; sourceTree = "<group>"; };
+		2F1D91C91CB75A6D004E6B04 /* defaultPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultPhoto.png; sourceTree = "<group>"; };
+		2F1D91CA1CB75A6D004E6B04 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2F1D91CB1CB75A6D004E6B04 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2F1D91CC1CB75A6D004E6B04 /* Icon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72x72.png; sourceTree = "<group>"; };
+		2F1D91CD1CB75A6D004E6B04 /* IconSmall-50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSmall-50x50.png"; sourceTree = "<group>"; };
+		2F1D91CE1CB75A6D004E6B04 /* IconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconSmall.png; sourceTree = "<group>"; };
+		2F1D91CF1CB75A6D004E6B04 /* IconSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSmall@2x.png"; sourceTree = "<group>"; };
+		2F1D91D01CB75A6D004E6B04 /* PWDefault-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PWDefault-Landscape.png"; sourceTree = "<group>"; };
+		2F1D91D11CB75A6D004E6B04 /* PWDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PWDefault.png; sourceTree = "<group>"; };
+		2F1D91D21CB75A6D004E6B04 /* stack-add-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stack-add-down.png"; sourceTree = "<group>"; };
+		2F1D91D31CB75A6D004E6B04 /* stack-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stack-add.png"; sourceTree = "<group>"; };
+		2F1D91D41CB75A6D004E6B04 /* stack-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stack-bg.png"; sourceTree = "<group>"; };
+		2F1D91D51CB75A6D004E6B04 /* PhotoWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotoWheel.png; sourceTree = "<group>"; };
+		2F1D91D61CB75A6D004E6B04 /* PhotoWheel-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoWheel-Landscape.png"; sourceTree = "<group>"; };
+		2F1D91D71CB75A6D004E6B04 /* stack-overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stack-overlay.png"; sourceTree = "<group>"; };
+		2F1D91D81CB75A6D004E6B04 /* stack-viewer-bg-landscape-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stack-viewer-bg-landscape-left.png"; sourceTree = "<group>"; };
+		2F1D91D91CB75A6D004E6B04 /* stack-viewer-bg-landscape-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stack-viewer-bg-landscape-right.png"; sourceTree = "<group>"; };
+		2F1D91DA1CB75A6D004E6B04 /* stack-viewer-bg-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stack-viewer-bg-portrait.png"; sourceTree = "<group>"; };
+		2F1D91DB1CB75A6D004E6B04 /* stack-viewer-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stack-viewer-shadow.png"; sourceTree = "<group>"; };
+		2F1D91F51CB767D0004E6B04 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		2F1D91F61CB767D0004E6B04 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		2F1D91F81CB76C48004E6B04 /* CustomPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPushSegue.h; sourceTree = "<group>"; };
+		2F1D91F91CB76C49004E6B04 /* CustomPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPushSegue.m; sourceTree = "<group>"; };
+		2F1D91FB1CB76CCD004E6B04 /* UIView+PWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PWCategory.h"; sourceTree = "<group>"; };
+		2F1D91FC1CB76CCD004E6B04 /* UIView+PWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PWCategory.m"; sourceTree = "<group>"; };
+		2F1D91FE1CB76E58004E6B04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F1D92001CB77332004E6B04 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		2F1D92011CB77332004E6B04 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		2F1D92031CB96A6C004E6B04 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2F1D92041CB96A6C004E6B04 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2F1D92061CB96A91004E6B04 /* PhotoAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumViewController.h; sourceTree = "<group>"; };
+		2F1D92071CB96A91004E6B04 /* PhotoAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumViewController.m; sourceTree = "<group>"; };
+		2F1D92091CB96A9E004E6B04 /* PhotoAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumsViewController.h; sourceTree = "<group>"; };
+		2F1D920A1CB96A9E004E6B04 /* PhotoAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumsViewController.m; sourceTree = "<group>"; };
+		2F1D920C1CB9A462004E6B04 /* WheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelView.h; sourceTree = "<group>"; };
+		2F1D920D1CB9A462004E6B04 /* WheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelView.m; sourceTree = "<group>"; };
+		2F1D920E1CB9A462004E6B04 /* PhotoWheelViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoWheelViewCell.h; sourceTree = "<group>"; };
+		2F1D920F1CB9A462004E6B04 /* PhotoWheelViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoWheelViewCell.m; sourceTree = "<group>"; };
+		2F1D92101CB9A462004E6B04 /* SpinGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinGestureRecognizer.h; sourceTree = "<group>"; };
+		2F1D92111CB9A462004E6B04 /* SpinGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinGestureRecognizer.m; sourceTree = "<group>"; };
+		2F1D92121CB9A462004E6B04 /* _Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Photo.h; sourceTree = "<group>"; };
+		2F1D92131CB9A462004E6B04 /* _Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Photo.m; sourceTree = "<group>"; };
+		2F1D92141CB9A462004E6B04 /* _PhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _PhotoAlbum.h; sourceTree = "<group>"; };
+		2F1D92151CB9A462004E6B04 /* _PhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _PhotoAlbum.m; sourceTree = "<group>"; };
+		2F1D92161CB9A462004E6B04 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		2F1D92171CB9A462004E6B04 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		2F1D92181CB9A462004E6B04 /* PhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbum.h; sourceTree = "<group>"; };
+		2F1D92191CB9A462004E6B04 /* PhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbum.m; sourceTree = "<group>"; };
+		2F1D92241CB9FBD9004E6B04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2F1D92281CBA18E6004E6B04 /* ClearToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearToolbar.h; sourceTree = "<group>"; };
+		2F1D92291CBA18E6004E6B04 /* ClearToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearToolbar.m; sourceTree = "<group>"; };
+		2F1D922B1CBABE8F004E6B04 /* PhotoWheelViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoWheelViewCell.xib; sourceTree = "<group>"; };
+		2F1D922D1CBCB8C5004E6B04 /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		2F1D922E1CBCB8C5004E6B04 /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+		2F1D92301CBE04AA004E6B04 /* ImageGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGridViewCell.h; sourceTree = "<group>"; };
+		2F1D92311CBE04AA004E6B04 /* ImageGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGridViewCell.m; sourceTree = "<group>"; };
+		2F1D92331CC09129004E6B04 /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserViewController.h; sourceTree = "<group>"; };
+		2F1D92341CC09129004E6B04 /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserViewController.m; sourceTree = "<group>"; };
+		2F3741C21CC5F00A0073C5DA /* PhotoBrowserPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserPhotoView.h; sourceTree = "<group>"; };
+		2F3741C31CC5F00A0073C5DA /* PhotoBrowserPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserPhotoView.m; sourceTree = "<group>"; };
+		2F3741C51CC749B50073C5DA /* background-landscape-right-grooved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-landscape-right-grooved.png"; sourceTree = "<group>"; };
+		2F3741C71CC9C1400073C5DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2F3741C91CC9C14C0073C5DA /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		2F3741CB1CC9C9D20073C5DA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2F3741CD1CC9C9FE0073C5DA /* SendEmailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendEmailController.h; sourceTree = "<group>"; };
+		2F3741CE1CC9C9FE0073C5DA /* SendEmailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendEmailController.m; sourceTree = "<group>"; };
+		2F3741D01CCB26720073C5DA /* FlickrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrViewController.h; sourceTree = "<group>"; };
+		2F3741D11CCB26720073C5DA /* FlickrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrViewController.m; sourceTree = "<group>"; };
+		2F3741D61CCB3B0F0073C5DA /* SimpleFlickrAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFlickrAPI.h; sourceTree = "<group>"; };
+		2F3741D71CCB3B0F0073C5DA /* SimpleFlickrAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFlickrAPI.m; sourceTree = "<group>"; };
+		2F3741D91CCB468A0073C5DA /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		2F3741DA1CCB468A0073C5DA /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		2F3741DC1CCC62390073C5DA /* MainSlideShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSlideShowViewController.h; sourceTree = "<group>"; };
+		2F3741DD1CCC62390073C5DA /* MainSlideShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSlideShowViewController.m; sourceTree = "<group>"; };
+		2F3741DF1CCC6EE50073C5DA /* SlideShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideShowViewController.h; sourceTree = "<group>"; };
+		2F3741E01CCC6EE50073C5DA /* SlideShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideShowViewController.m; sourceTree = "<group>"; };
+		2F3741E21CCF31810073C5DA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F1D91A31CB7587F004E6B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3741E31CCF31810073C5DA /* ImageIO.framework in Frameworks */,
+				2F3741CC1CC9C9D20073C5DA /* MessageUI.framework in Frameworks */,
+				2F1D92251CB9FBDA004E6B04 /* CoreData.framework in Frameworks */,
+				2F1D91FF1CB76E58004E6B04 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F1D919D1CB7587E004E6B04 = {
+			isa = PBXGroup;
+			children = (
+				2F3741E21CCF31810073C5DA /* ImageIO.framework */,
+				2F3741CB1CC9C9D20073C5DA /* MessageUI.framework */,
+				2F1D92241CB9FBD9004E6B04 /* CoreData.framework */,
+				2F1D91FE1CB76E58004E6B04 /* CoreGraphics.framework */,
+				2F1D91A81CB7587F004E6B04 /* PhotoWheel2 */,
+				2F1D91A71CB7587F004E6B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F1D91A71CB7587F004E6B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F1D91A61CB7587F004E6B04 /* PhotoWheel2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F1D91A81CB7587F004E6B04 /* PhotoWheel2 */ = {
+			isa = PBXGroup;
+			children = (
+				2F1D920C1CB9A462004E6B04 /* WheelView.h */,
+				2F1D920D1CB9A462004E6B04 /* WheelView.m */,
+				2F1D920E1CB9A462004E6B04 /* PhotoWheelViewCell.h */,
+				2F1D920F1CB9A462004E6B04 /* PhotoWheelViewCell.m */,
+				2F1D922B1CBABE8F004E6B04 /* PhotoWheelViewCell.xib */,
+				2F1D92101CB9A462004E6B04 /* SpinGestureRecognizer.h */,
+				2F1D92111CB9A462004E6B04 /* SpinGestureRecognizer.m */,
+				2F1D92121CB9A462004E6B04 /* _Photo.h */,
+				2F1D92131CB9A462004E6B04 /* _Photo.m */,
+				2F1D92141CB9A462004E6B04 /* _PhotoAlbum.h */,
+				2F1D92151CB9A462004E6B04 /* _PhotoAlbum.m */,
+				2F1D92161CB9A462004E6B04 /* Photo.h */,
+				2F1D92171CB9A462004E6B04 /* Photo.m */,
+				2F1D92181CB9A462004E6B04 /* PhotoAlbum.h */,
+				2F1D92191CB9A462004E6B04 /* PhotoAlbum.m */,
+				2F1D91AC1CB7587F004E6B04 /* AppDelegate.h */,
+				2F1D91AD1CB7587F004E6B04 /* AppDelegate.m */,
+				2F1D91B21CB7587F004E6B04 /* Main.storyboard */,
+				2F3741DC1CCC62390073C5DA /* MainSlideShowViewController.h */,
+				2F3741DD1CCC62390073C5DA /* MainSlideShowViewController.m */,
+				2F3741DF1CCC6EE50073C5DA /* SlideShowViewController.h */,
+				2F3741E01CCC6EE50073C5DA /* SlideShowViewController.m */,
+				2F1D92031CB96A6C004E6B04 /* MainViewController.h */,
+				2F1D92041CB96A6C004E6B04 /* MainViewController.m */,
+				2F1D92061CB96A91004E6B04 /* PhotoAlbumViewController.h */,
+				2F1D92071CB96A91004E6B04 /* PhotoAlbumViewController.m */,
+				2F3741D01CCB26720073C5DA /* FlickrViewController.h */,
+				2F3741D11CCB26720073C5DA /* FlickrViewController.m */,
+				2F1D92301CBE04AA004E6B04 /* ImageGridViewCell.h */,
+				2F1D92311CBE04AA004E6B04 /* ImageGridViewCell.m */,
+				2F1D92091CB96A9E004E6B04 /* PhotoAlbumsViewController.h */,
+				2F1D920A1CB96A9E004E6B04 /* PhotoAlbumsViewController.m */,
+				2F1D922D1CBCB8C5004E6B04 /* GridView.h */,
+				2F1D922E1CBCB8C5004E6B04 /* GridView.m */,
+				2F1D92331CC09129004E6B04 /* PhotoBrowserViewController.h */,
+				2F1D92341CC09129004E6B04 /* PhotoBrowserViewController.m */,
+				2F3741C21CC5F00A0073C5DA /* PhotoBrowserPhotoView.h */,
+				2F3741C31CC5F00A0073C5DA /* PhotoBrowserPhotoView.m */,
+				2F1D92281CBA18E6004E6B04 /* ClearToolbar.h */,
+				2F1D92291CBA18E6004E6B04 /* ClearToolbar.m */,
+				2F1D92001CB77332004E6B04 /* CustomNavigationController.h */,
+				2F1D92011CB77332004E6B04 /* CustomNavigationController.m */,
+				2F1D91F81CB76C48004E6B04 /* CustomPushSegue.h */,
+				2F1D91F91CB76C49004E6B04 /* CustomPushSegue.m */,
+				2F1D91FB1CB76CCD004E6B04 /* UIView+PWCategory.h */,
+				2F1D91FC1CB76CCD004E6B04 /* UIView+PWCategory.m */,
+				2F1D91F51CB767D0004E6B04 /* AboutViewController.h */,
+				2F1D91F61CB767D0004E6B04 /* AboutViewController.m */,
+				2F3741CD1CC9C9FE0073C5DA /* SendEmailController.h */,
+				2F3741CE1CC9C9FE0073C5DA /* SendEmailController.m */,
+				2F3741D61CCB3B0F0073C5DA /* SimpleFlickrAPI.h */,
+				2F3741D71CCB3B0F0073C5DA /* SimpleFlickrAPI.m */,
+				2F3741D91CCB468A0073C5DA /* ImageDownloader.h */,
+				2F3741DA1CCB468A0073C5DA /* ImageDownloader.m */,
+				2F1D91B81CB75880004E6B04 /* Assets.xcassets */,
+				2F1D91BA1CB75880004E6B04 /* LaunchScreen.storyboard */,
+				2F1D91BD1CB75880004E6B04 /* Info.plist */,
+				2F1D91B51CB7587F004E6B04 /* PhotoWheel2.xcdatamodeld */,
+				2F1D91A91CB7587F004E6B04 /* Supporting Files */,
+			);
+			path = PhotoWheel2;
+			sourceTree = "<group>";
+		};
+		2F1D91A91CB7587F004E6B04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F3741C91CC9C14C0073C5DA /* Default-Landscape.png */,
+				2F3741C71CC9C1400073C5DA /* Default.png */,
+				2F1D91C31CB75A6D004E6B04 /* addphoto.png */,
+				2F1D91C41CB75A6D004E6B04 /* background-landscape-left-grooved.png */,
+				2F3741C51CC749B50073C5DA /* background-landscape-right-grooved.png */,
+				2F1D91C61CB75A6D004E6B04 /* background-portrait-grooved.png */,
+				2F1D91C71CB75A6D004E6B04 /* buttonNext.png */,
+				2F1D91C81CB75A6D004E6B04 /* buttonPrevious.png */,
+				2F1D91C91CB75A6D004E6B04 /* defaultPhoto.png */,
+				2F1D91CA1CB75A6D004E6B04 /* Icon.png */,
+				2F1D91CB1CB75A6D004E6B04 /* Icon@2x.png */,
+				2F1D91CC1CB75A6D004E6B04 /* Icon72x72.png */,
+				2F1D91CD1CB75A6D004E6B04 /* IconSmall-50x50.png */,
+				2F1D91CE1CB75A6D004E6B04 /* IconSmall.png */,
+				2F1D91CF1CB75A6D004E6B04 /* IconSmall@2x.png */,
+				2F1D91D01CB75A6D004E6B04 /* PWDefault-Landscape.png */,
+				2F1D91D11CB75A6D004E6B04 /* PWDefault.png */,
+				2F1D91D21CB75A6D004E6B04 /* stack-add-down.png */,
+				2F1D91D31CB75A6D004E6B04 /* stack-add.png */,
+				2F1D91D41CB75A6D004E6B04 /* stack-bg.png */,
+				2F1D91D51CB75A6D004E6B04 /* PhotoWheel.png */,
+				2F1D91D61CB75A6D004E6B04 /* PhotoWheel-Landscape.png */,
+				2F1D91D71CB75A6D004E6B04 /* stack-overlay.png */,
+				2F1D91D81CB75A6D004E6B04 /* stack-viewer-bg-landscape-left.png */,
+				2F1D91D91CB75A6D004E6B04 /* stack-viewer-bg-landscape-right.png */,
+				2F1D91DA1CB75A6D004E6B04 /* stack-viewer-bg-portrait.png */,
+				2F1D91DB1CB75A6D004E6B04 /* stack-viewer-shadow.png */,
+				2F1D91AA1CB7587F004E6B04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F1D91A51CB7587F004E6B04 /* PhotoWheel2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1D91C01CB75880004E6B04 /* Build configuration list for PBXNativeTarget "PhotoWheel2" */;
+			buildPhases = (
+				2F1D91A21CB7587F004E6B04 /* Sources */,
+				2F1D91A31CB7587F004E6B04 /* Frameworks */,
+				2F1D91A41CB7587F004E6B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoWheel2;
+			productName = PhotoWheel2;
+			productReference = 2F1D91A61CB7587F004E6B04 /* PhotoWheel2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F1D919E1CB7587F004E6B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					2F1D91A51CB7587F004E6B04 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7LHW3N9Y3L;
+					};
+				};
+			};
+			buildConfigurationList = 2F1D91A11CB7587F004E6B04 /* Build configuration list for PBXProject "PhotoWheel2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F1D919D1CB7587E004E6B04;
+			productRefGroup = 2F1D91A71CB7587F004E6B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F1D91A51CB7587F004E6B04 /* PhotoWheel2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F1D91A41CB7587F004E6B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3741C61CC749B50073C5DA /* background-landscape-right-grooved.png in Resources */,
+				2F1D91F31CB75A6D004E6B04 /* stack-viewer-bg-portrait.png in Resources */,
+				2F1D91E21CB75A6D004E6B04 /* defaultPhoto.png in Resources */,
+				2F1D91F01CB75A6D004E6B04 /* stack-overlay.png in Resources */,
+				2F1D91E41CB75A6D004E6B04 /* Icon@2x.png in Resources */,
+				2F1D91BC1CB75880004E6B04 /* LaunchScreen.storyboard in Resources */,
+				2F1D91F41CB75A6D004E6B04 /* stack-viewer-shadow.png in Resources */,
+				2F1D91EF1CB75A6D004E6B04 /* PhotoWheel-Landscape.png in Resources */,
+				2F1D91E11CB75A6D004E6B04 /* buttonPrevious.png in Resources */,
+				2F1D91E61CB75A6D004E6B04 /* IconSmall-50x50.png in Resources */,
+				2F1D91B91CB75880004E6B04 /* Assets.xcassets in Resources */,
+				2F1D91E91CB75A6D004E6B04 /* PWDefault-Landscape.png in Resources */,
+				2F1D91DD1CB75A6D004E6B04 /* background-landscape-left-grooved.png in Resources */,
+				2F1D91E71CB75A6D004E6B04 /* IconSmall.png in Resources */,
+				2F1D91EE1CB75A6D004E6B04 /* PhotoWheel.png in Resources */,
+				2F1D91E01CB75A6D004E6B04 /* buttonNext.png in Resources */,
+				2F1D91ED1CB75A6D004E6B04 /* stack-bg.png in Resources */,
+				2F1D91E51CB75A6D004E6B04 /* Icon72x72.png in Resources */,
+				2F1D91F21CB75A6D004E6B04 /* stack-viewer-bg-landscape-right.png in Resources */,
+				2F3741C81CC9C1410073C5DA /* Default.png in Resources */,
+				2F1D91EC1CB75A6D004E6B04 /* stack-add.png in Resources */,
+				2F1D91EA1CB75A6D004E6B04 /* PWDefault.png in Resources */,
+				2F1D91DF1CB75A6D004E6B04 /* background-portrait-grooved.png in Resources */,
+				2F1D91E31CB75A6D004E6B04 /* Icon.png in Resources */,
+				2F1D91DC1CB75A6D004E6B04 /* addphoto.png in Resources */,
+				2F1D91EB1CB75A6D004E6B04 /* stack-add-down.png in Resources */,
+				2F1D922C1CBABE90004E6B04 /* PhotoWheelViewCell.xib in Resources */,
+				2F1D91B41CB7587F004E6B04 /* Main.storyboard in Resources */,
+				2F3741CA1CC9C14C0073C5DA /* Default-Landscape.png in Resources */,
+				2F1D91F11CB75A6D004E6B04 /* stack-viewer-bg-landscape-left.png in Resources */,
+				2F1D91E81CB75A6D004E6B04 /* IconSmall@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F1D91A21CB7587F004E6B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1D91B71CB7587F004E6B04 /* PhotoWheel2.xcdatamodeld in Sources */,
+				2F1D921A1CB9A462004E6B04 /* WheelView.m in Sources */,
+				2F1D92351CC09129004E6B04 /* PhotoBrowserViewController.m in Sources */,
+				2F3741DE1CCC62390073C5DA /* MainSlideShowViewController.m in Sources */,
+				2F1D92321CBE04AA004E6B04 /* ImageGridViewCell.m in Sources */,
+				2F1D921E1CB9A462004E6B04 /* _PhotoAlbum.m in Sources */,
+				2F1D920B1CB96A9E004E6B04 /* PhotoAlbumsViewController.m in Sources */,
+				2F1D91FA1CB76C49004E6B04 /* CustomPushSegue.m in Sources */,
+				2F1D92081CB96A91004E6B04 /* PhotoAlbumViewController.m in Sources */,
+				2F1D921B1CB9A462004E6B04 /* PhotoWheelViewCell.m in Sources */,
+				2F1D922F1CBCB8C5004E6B04 /* GridView.m in Sources */,
+				2F1D921D1CB9A462004E6B04 /* _Photo.m in Sources */,
+				2F1D92021CB77332004E6B04 /* CustomNavigationController.m in Sources */,
+				2F1D92051CB96A6C004E6B04 /* MainViewController.m in Sources */,
+				2F3741C41CC5F00A0073C5DA /* PhotoBrowserPhotoView.m in Sources */,
+				2F1D91AE1CB7587F004E6B04 /* AppDelegate.m in Sources */,
+				2F1D922A1CBA18E6004E6B04 /* ClearToolbar.m in Sources */,
+				2F3741CF1CC9C9FE0073C5DA /* SendEmailController.m in Sources */,
+				2F1D91F71CB767D0004E6B04 /* AboutViewController.m in Sources */,
+				2F3741DB1CCB468A0073C5DA /* ImageDownloader.m in Sources */,
+				2F1D92201CB9A462004E6B04 /* PhotoAlbum.m in Sources */,
+				2F3741D21CCB26720073C5DA /* FlickrViewController.m in Sources */,
+				2F1D921F1CB9A462004E6B04 /* Photo.m in Sources */,
+				2F1D921C1CB9A462004E6B04 /* SpinGestureRecognizer.m in Sources */,
+				2F3741D81CCB3B0F0073C5DA /* SimpleFlickrAPI.m in Sources */,
+				2F3741E11CCC6EE50073C5DA /* SlideShowViewController.m in Sources */,
+				2F1D91AB1CB7587F004E6B04 /* main.m in Sources */,
+				2F1D91FD1CB76CCD004E6B04 /* UIView+PWCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F1D91B21CB7587F004E6B04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1D91B31CB7587F004E6B04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F1D91BA1CB75880004E6B04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1D91BB1CB75880004E6B04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F1D91BE1CB75880004E6B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2F1D91BF1CB75880004E6B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F1D91C11CB75880004E6B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoWheel2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.PhotoWheel2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2F1D91C21CB75880004E6B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PhotoWheel2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.PhotoWheel2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F1D91A11CB7587F004E6B04 /* Build configuration list for PBXProject "PhotoWheel2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1D91BE1CB75880004E6B04 /* Debug */,
+				2F1D91BF1CB75880004E6B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1D91C01CB75880004E6B04 /* Build configuration list for PBXNativeTarget "PhotoWheel2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1D91C11CB75880004E6B04 /* Debug */,
+				2F1D91C21CB75880004E6B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F1D91B51CB7587F004E6B04 /* PhotoWheel2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F1D91B61CB7587F004E6B04 /* PhotoWheel2.xcdatamodel */,
+			);
+			currentVersion = 2F1D91B61CB7587F004E6B04 /* PhotoWheel2.xcdatamodel */;
+			path = PhotoWheel2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2F1D919E1CB7587F004E6B04 /* Project object */;
+}
