@@ -337,6 +337,7 @@
 -(id)dequeueReusableCell
 {
     id view = [[self reusableCells] anyObject];
+
     if ( view != nil )
     {
         [[self reusableCells] removeObject:view];
